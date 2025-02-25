@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    height: 100vh; 
+    background-color: lightblue;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+    text-align: center; 
+}
+.memegenerator img {
+    display: block;
+    margin: 10px auto;  
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.memetitle, .memeAuthor {
+
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+
